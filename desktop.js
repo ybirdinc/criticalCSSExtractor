@@ -6,9 +6,10 @@ const fs = require("fs");
  const browser = await puppeteer.launch();
  const page = await browser.newPage();
  await page.coverage.startCSSCoverage();
- await page.goto('https://farmasi.ua/');
- //await page.setViewport({width  : 320, height : 640});
- await page.setViewport({width  : 1900, height : 768});
+ // Change this URL to the address where you want to extract Critical CSS from
+ await page.goto('https://example.com/');
+ // Viewport size for a regular laptop
+ await page.setViewport({width  : 1366, height : 768});
  const css_coverage = await page.coverage.stopCSSCoverage();
  console.log(util.inspect(css_coverage, { showHidden: false, depth: null }));
  await browser.close();
