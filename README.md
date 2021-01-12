@@ -39,6 +39,8 @@ Then go to desired folder where you want to extract Critical CSS, download this 
 
     npm install
 
+Puppeteer will be install as well. It downloads and uses Chromeium in the background to extract Critical CSS using Coverage window in Developer Tools.
+
 ##How to run
 
 Edit **desktop.js** and **mobile.js** to change the URL and screen sizes. Then in CMD run:
