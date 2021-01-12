@@ -1,0 +1,83 @@
+.footer-backgroundblack {
+        background-color:black;
+        color: #fff;
+        letter-spacing: 0.1rem;
+        padding: 0;
+        margin: 0;
+        font-size: 0.9rem;
+        width: 100%;
+        overflow: hidden;
+    }
+#footer a {
+    color: #949494;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#footer p {
+        color: #888888;
+        font-size: 0.9rem;
+    }
+#footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 20px
+    }
+#footer .widget {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+#footer .widget .widget-title {
+            margin-top: 0;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+#footer #footer-main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+.footerBottomText {
+        text-align: center !important;
+        margin-bottom:20px
+    }
+#footer .widget .widget-title {
+    color: #f5f5f5;
+    letter-spacing: 0.15rem;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    word-break: break-word;
+    text-transform: uppercase;
+}
+#footer .widget-links li a {
+    display: block;
+}
+#footer .widget-links li:last-child a {
+}
+.footerBottomText {
+    text-align: left;
+    padding-top: 12px;
+}
+#footer #footer-main {
+        /*padding: 0px 0px 10px 0px;*/
+    }
+#footer #footer-main [class*="col-"] {
+        margin-bottom: 2rem;
+    }
+.social {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 1;
+}
+footer a {
+    color: #dddddd;
+}
+#footer #footer-main{
+        padding-top:25px;
+        padding-bottom:15px;
+    }

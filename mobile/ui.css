@@ -1,0 +1,6 @@
+.tab-content {
+    padding-top: 2rem;
+}
+.tab-content, .tab-left .tab-content {
+        padding-top: 0;
+    }
