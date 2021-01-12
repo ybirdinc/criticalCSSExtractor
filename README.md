@@ -30,7 +30,7 @@ First of all Node.js is needed.
 
 I used **Grunt**, so you have install Grunt and grunt-cli globally. Open command prompt in any folder and type:
 
-    npm install ig grunt
+    npm install -g grunt
     npm install -g grunt-cli
 
 Then go to desired folder where you want to extract Critical CSS, download this repo and install packages:
