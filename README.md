@@ -37,7 +37,13 @@ Then go to desired folder where you want to extract Critical CSS, download this 
 
     npm install
 
+##How to run
+
 Edit **desktop.js** and **mobile.js** to change the URL and screen sizes. Then in CMD run:
+
+    node mobile.js
+
+    node desktop.js
 
     grunt
 
