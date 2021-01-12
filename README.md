@@ -18,6 +18,8 @@ Example:
 </head>
 ```
 
+The rest of the CSS files should be linked after page load finishes.
+
 ## How to extract Critical CSS
 
 With this script you can extract Critical CSS of the given URL and then save it in unminified and minified CSS files.
